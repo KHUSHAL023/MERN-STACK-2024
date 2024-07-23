@@ -8,6 +8,7 @@
     <title>Login</title>
     <link rel="stylesheet" href="./Nav/nav.css">
     <link rel="stylesheet" href="./login.css">
+    <script src="login.js" defer></script>
 </head>
 
 <body>
@@ -22,6 +23,22 @@
                 <button class="login"><a href="./login.html">LOGIN</a></button>
                 <button class="signup"><a href="./signup.html">SIGNUP</a></button>
             </div>
+            
+        </div>
+        <div id="Terms">
+            <p>
+                Enjoy 40% off the first four weeks of a new subscription!...<button style="border: none;" onclick="displaypopup()">Terms</button>
+            </p>
+        </div>
+        <div class="pop-up" id="PopUp">
+            <button onclick="closepopup()"><b>X</b></button>
+            <div class="write">
+                <h1>Enjoy 40% off the first four weeks of a new subscription!</h1>
+                <p>
+                     Coupons will be automatically applied to your account from the day of registration. Discounts are forfeit in any week an order is skipped or paused. Valid for new meal plan subscriptions only. Limit one per household. Cannot be combined with any other offer. Discount will be taken off of the price of the products and does not apply to shipping or tax, except where otherwise indicated. Redeeming this offer results in the purchase of a continuous subscription for which you will automatically receive weekly deliveries billed to your designated payment method until you cancel.
+                </p>
+            </div>
+        </div>
     </div>
     <!-- .................................................... -->
     <div class="lfst">

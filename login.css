@@ -1,9 +1,8 @@
 .lfst {
     width: 20%;
     margin: auto;
-
     padding: 20px;
-    margin-top: 125px;
+    margin-top: -18%;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
@@ -11,7 +10,7 @@
     margin-bottom: 40px;
     text-align: center;
     color: black;
-    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;;
+    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
 }
 
 .lfst p {
@@ -23,6 +22,62 @@
     font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     font-size: small;
     font-weight: bolder;
+}
+#Terms{
+    background-color: #0f346c;
+    color: #fff;
+    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    margin-top: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Terms button{
+    background-color: #0f346c;
+    color: #fff;
+    font-size: medium;
+    text-decoration: underline;
+}
+#Terms button:hover{
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+    text-shadow: 0 0 5px lightblue;
+    text-transform: inherit;
+}
+.pop-up{
+    margin-left: 30%;
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: -50%;
+    visibility: hidden;
+}
+.display{
+    top: 25%;
+    visibility: visible;
+    backdrop-filter: blur(200px);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.pop-up .write{
+    margin: 50px 30px 30px 30px;
+    font-size: small;
+}
+.pop-up button{
+    margin-left: 90%; 
+    margin-top: 2%; 
+    border-radius: 50px;
+}
+.pop-up button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
 }
 .lfst form input {
     width: 95%;
