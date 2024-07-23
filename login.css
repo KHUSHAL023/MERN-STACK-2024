@@ -3,7 +3,7 @@
     margin: auto;
 
     padding: 20px;
-    margin-top: 50px;
+    margin-top: 125px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
@@ -11,14 +11,19 @@
     margin-bottom: 40px;
     text-align: center;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;;
 }
 
 .lfst p {
     text-align: center;
     color: gray;
+    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
 }
-
+#para{
+    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-size: small;
+    font-weight: bolder;
+}
 .lfst form input {
     width: 95%;
     height: 40px;
@@ -41,15 +46,39 @@
 #login:hover{
     color: black;
     text-shadow: 0 0 5px whitesmoke;
+    cursor: pointer;
 }
-#Remember-forget{
+.Remember-forget{
     margin-top: 10px;
     font-size: 0en;
     color: grey;
     display: flex;
     justify-content: space-between;
 }
-
+#remember{
+    height: 20px;
+    width: 20px;
+    margin-top: 0%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+#remember:hover{
+    cursor: pointer;
+    border-radius: 1px;
+    box-shadow: grey;
+}
+#hello{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 18%;
+}
+#pass{
+    text-decoration: none;
+    color: black;
+}
+#pass:hover{
+    text-decoration: underline;
+}
 
 .lfst form input:nth-child(9) {
     background-color: rgba(16, 52, 108, 255);
@@ -121,3 +150,49 @@ footer p {
     font-size: 15px;
     color: white;
 }
+.nav .left{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 60px;
+    padding: 20px 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav .left a{
+    text-decoration: none;
+    position: relative;
+    font-size: 1.1em;
+    color: black;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.nav .left a:hover{
+    text-shadow: 0 0 2px black;
+}
+.nav .left .login{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    outline: none;
+    font-size: 100%;
+    border: none;
+}
+.nav .left .signup{
+    width: 130px;
+    height: 50px;
+    background-color: orangered;
+    font-size: 100%;
+    border: none;
+    color: white;
+    margin-left: 10px;
+    transition: .5s;
+    border-radius: 2px;
+}
+.nav .left .signup:hover{
+    background-color: #fff;
+}
+

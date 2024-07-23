@@ -13,28 +13,29 @@
 <body>
     <div class="nav">
         <div class="left">
-            <a href="./index.html"> <img src="./image/black-apron-restaurant-vector-logo-design-2JAKX59.jpg" alt=""></a>
+            <a href="./index.html"> <img src="blue apron.jpg" alt="" height="100px"></a>
             <div class="a">
                 <a href="./menu.html">MENU</a>
                 <a href="./gift.html">GIFTS</a>
                 <a href="./cart.html">CART</a>
                 <a href="./blog.html">Blog</a>
+                <button class="login"><a href="./login.html">LOGIN</a></button>
+                <button class="signup"><a href="./signup.html">SIGNUP</a></button>
             </div>
-
-        </div>
-        <div class="right">
-            <button class="login"><a href="./login.html">LOGIN</a></button>
-            <button class="signup"><a href="./signup.html">SIGNUP</a></button>
-        </div>
     </div>
     <!-- .................................................... -->
     <div class="lfst">
         <h1>Log In</h1>
         <form>
-            <label>EMAIL</label><br>
+            <label id="para">EMAIL</label><br>
             <input type="email" id="email" placeholder="Ex:- xyz@gmail.com"><br>
-            <label>PASSWORD</label> <br>
+            <label id="para">PASSWORD</label> <br>
             <input type="password" id="password"><br>
+            <div class="Remember-forget">
+                <input type="checkbox" id="remember" name="remember" value="remember">
+                <label for="remember" id="hello">Remember Me?</label>
+                <a href="#" id="pass">Forgot Password?</a>
+            </div>
         </form>
         <button id="login" type="submit">LOG IN</button>
         <p>Don't have an account?<a href="./signup.html"> Sign Up </a></p>
