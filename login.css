@@ -45,6 +45,7 @@
     font-weight: bolder;
     text-shadow: 0 0 5px lightblue;
     text-transform: inherit;
+    letter-spacing: .07em;
 }
 .pop-up{
     margin-left: 30%;
